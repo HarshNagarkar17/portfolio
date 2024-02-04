@@ -1,0 +1,45 @@
+.font-menu {
+  color: #AEB5BC;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.left-span {
+  color: #4C6CF3;
+}
+
+.right-span {
+  color: #733DEC;
+}
+
+.nunito {
+  font-family: "Nunito", sans-serif;
+}
+.read-width {
+	max-width: 830px;
+}
+
+#typewriter {
+	display: inline-block;
+	font-size: 62px;
+	/* font-family: Monospace;
+  color: #FFB52B; */
+	margin-top: 50px;
+	/* letter-spacing: .2rem; */
+}
+
+.type-text {
+	word-wrap: wrap;
+  /* background-color: #3E3264; */
+	line-height: .90;
+}
+
+#sentence {
+	animation: blink-caret 0.7s step-end infinite;
+	/* border-right: .15em solid #FFB52B; */
+  border-right: .15em solid #AEB5BC;
+}
+
+@keyframes blink-caret {
+  50% { border-color: transparent }
+}
